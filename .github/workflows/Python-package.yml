@@ -16,17 +16,17 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.8.2]
+        python-version: [3.8]
 
     # steps executed by jobs:
     steps:
       - uses: actions/checkout@v2
 
       # sets up python environment:
-      - name: Set up Python 3.8.2
+      - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
-          python-version 3.8.2
+          python-version 3.8
 
       # installs dependencies:
       - name: Install dependencies
