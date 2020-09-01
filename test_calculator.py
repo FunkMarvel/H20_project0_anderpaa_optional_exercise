@@ -25,7 +25,7 @@ def test_float_add_exercise_2():
     Function for testing floating point addition with
     "add()".
     """
-    expected = 0.5
+    expected = 0.3
     result = calc.add(0.1, 0.2)
     assert math.isclose(expected, result)
 
