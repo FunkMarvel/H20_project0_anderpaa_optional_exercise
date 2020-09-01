@@ -69,3 +69,4 @@ def cos(x, N=10):
         cos_x += (-1)**i * x**(2*i)/factorial(2*i)
 
     return cos_x
+#boop
